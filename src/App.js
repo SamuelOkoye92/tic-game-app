@@ -1,10 +1,10 @@
 import "./App.css";
-import Square from "./Components/Square";
+import GameHistory from "./Components/Board";
 
 function App() {
   return (
-    <div className="App">
-      <Square />
+    <div className="app">
+      <GameHistory />
     </div>
   );
 }
